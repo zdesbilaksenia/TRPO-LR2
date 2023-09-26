@@ -9,3 +9,7 @@ void askname(char *first, char *last)
  printf("Now enter your last name: ");
  gets(last); /* buffer overflow? what's that? */
 }
+
+int sum(int a, int b) {
+    return a+b;
+}
